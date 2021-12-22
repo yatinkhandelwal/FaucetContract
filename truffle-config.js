@@ -1,4 +1,5 @@
 
+
 module.exports = {
   contracts_build_directory: "./public/contracts",
   networks: {
@@ -10,8 +11,7 @@ module.exports = {
   },
   compilers: {
     solc: {
-      version: "0.8.4",    
+      version: "0.8.4",    // Fetch exact version from solc-bin (default: truffle's version)
     }
-  },
-
+  }
 };
